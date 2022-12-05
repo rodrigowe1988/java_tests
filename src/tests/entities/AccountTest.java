@@ -1,9 +1,8 @@
 package entities;
 
+import factory.AccountFactory;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import factory.AccountFactory;
 
 class AccountTest {
 
@@ -41,7 +40,25 @@ class AccountTest {
     	
     	Assertions.assertTrue(expectedValue == acc.getBalance());
     	Assertions.assertTrue(result == initialBalance);
+    }
 
+    @Test
+    public void withdrawShouldDecreaseBalanceWhenSufficientBalance() {
+
+        Account acc = AccountFactory.createAccount(800.0);
+
+        acc.withdraw(500.0);
+
+        Assertions.assertEquals(300.0, acc.getBalance());
+    }
+
+    @Test
+    public void withdrawShouldThrowExceptionWhenInsufficientBalance() {
+
+        Assertions.assertThrows(IllegalArgumentException.class, () -> {
+           Account acc = AccountFactory.createAccount(800.0);
+           acc.withdraw(801.0);
+        });
     }
 
 }
