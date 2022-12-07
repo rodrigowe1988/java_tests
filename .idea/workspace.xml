@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0de6b3-4b48-4b3a-a218-1f3d65961f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/Financing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/entities/FinancingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula-junit5/entities/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/aula-junit5/entities/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula-junit5/entities/AccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/aula-junit5/factory/AccountFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/aula-junit5/entities/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/aula-junit5/entities/AccountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/entities/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/entities/AccountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/factory/AccountFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/entities/AccountFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +29,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IQ2X2IAvMtKhCKt3IpkJuPLrAq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,81 +64,81 @@
       <recent name="entities" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FinancingTest">
+    <configuration name="FinancingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AccountTest" />
+      <option name="MAIN_CLASS_NAME" value="entities.FinancingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.depositShouldIncreaseBalanceWhenPositiveAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinancingTest.setIncomeShouldThrowIllegalArgumentExceptionWhenInvalidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AccountTest" />
-      <option name="METHOD_NAME" value="depositShouldIncreaseBalanceWhenPositiveAmount" />
+      <option name="MAIN_CLASS_NAME" value="entities.FinancingTest" />
+      <option name="METHOD_NAME" value="setIncomeShouldThrowIllegalArgumentExceptionWhenInvalidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.depositShouldIncreaseBalanceWhenPositiveAmount2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinancingTest.setIncomeShouldUpdateDataWhenValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AccountTest" />
-      <option name="METHOD_NAME" value="depositShouldIncreaseBalanceWhenPositiveAmount2" />
+      <option name="MAIN_CLASS_NAME" value="entities.FinancingTest" />
+      <option name="METHOD_NAME" value="setIncomeShouldUpdateDataWhenValidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.withdrawShouldDecreaseBalanceWhenSufficientBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinancingTest.setMonthsShouldThrowIllegalArgumentExceptionWhenInvalidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AccountTest" />
-      <option name="METHOD_NAME" value="withdrawShouldDecreaseBalanceWhenSufficientBalance" />
+      <option name="MAIN_CLASS_NAME" value="entities.FinancingTest" />
+      <option name="METHOD_NAME" value="setMonthsShouldThrowIllegalArgumentExceptionWhenInvalidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.withdrawShouldThrowExceptionWhenInsufficientBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FinancingTest.setMonthseShouldUpdateDataWhenValidData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aula-junit5" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="factory.*" />
+          <option name="PATTERN" value="entities.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="entities" />
-      <option name="MAIN_CLASS_NAME" value="entities.AccountTest" />
-      <option name="METHOD_NAME" value="withdrawShouldThrowExceptionWhenInsufficientBalance" />
+      <option name="MAIN_CLASS_NAME" value="entities.FinancingTest" />
+      <option name="METHOD_NAME" value="setMonthseShouldUpdateDataWhenValidData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.withdrawShouldThrowExceptionWhenInsufficientBalance" />
-        <item itemvalue="JUnit.AccountTest.withdrawShouldDecreaseBalanceWhenSufficientBalance" />
-        <item itemvalue="JUnit.AccountTest.depositShouldIncreaseBalanceWhenPositiveAmount" />
-        <item itemvalue="JUnit.AccountTest.depositShouldIncreaseBalanceWhenPositiveAmount2" />
+        <item itemvalue="JUnit.FinancingTest" />
+        <item itemvalue="JUnit.FinancingTest.setMonthsShouldThrowIllegalArgumentExceptionWhenInvalidData" />
+        <item itemvalue="JUnit.FinancingTest.setMonthseShouldUpdateDataWhenValidData" />
+        <item itemvalue="JUnit.FinancingTest.setIncomeShouldThrowIllegalArgumentExceptionWhenInvalidData" />
+        <item itemvalue="JUnit.FinancingTest.setIncomeShouldUpdateDataWhenValidData" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +170,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/tests/entities/AccountTest.java</url>
-          <line>5</line>
+          <line>6</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
